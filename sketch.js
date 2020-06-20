@@ -43,9 +43,13 @@ function setup() {
 
 function draw() {
 
-  if(bg)
+  if(bg == "yellow")
   {
-    background(bg);
+    background("yellow");
+  }
+  else if (bg == "black")
+  {
+    background("black");
   }
 
   Engine.update(engine);
